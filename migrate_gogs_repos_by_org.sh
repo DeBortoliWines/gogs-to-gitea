@@ -1,11 +1,6 @@
 #!/bin/bash
 set -x
 
-fail_with_error() {
-    echo ${1}
-    exit 1
-}
-
 . $(dirname $0)/env || (echo "$(dirname $0)/env missing, please see $(dirname $0)/env.ex"; exit 1)
 
 JSON_CACHE_REPO=/tmp/migrate-gitea-repo-${RANDOM}
