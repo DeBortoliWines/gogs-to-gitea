@@ -1,5 +1,9 @@
 # gogs-to-gitea
-A bash script to migrate gogs repositories to gitea via APIs. Note this does orgs and repos only, not users
+A bash script to migrate gogs repositories to gitea via APIs. 
+
+At best it is a(n incomplete) workaround to the problem of the gitea db schema diverging too far from gogs, and no longer being able to migrate at a database level.
+
+> **_NOTE:_**  This does orgs and repos only, not users
 
 This is not intended as a user-friendly tool - use at your own risk. I used it once for a migration in 2025, and am not planning on supporting further.
 
