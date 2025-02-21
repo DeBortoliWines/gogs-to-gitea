@@ -12,7 +12,9 @@ This is not intended as a user-friendly tool - use at your own risk. I used it o
         \"issues\": false, \ <- update to true if you want to migrate issues
 ```
 
-3. Install dependencies `jq`
+3. Install dependencies:
+ - `jq` - [homepage](https://github.com/jqlang/jq)
+ - `curl` - [homepage](https://curl.se/)
 
 4. Run it:
 ```
