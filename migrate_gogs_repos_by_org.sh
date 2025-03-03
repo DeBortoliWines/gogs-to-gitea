@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Copyright (C) 2025 "Bernard Gray <bernard.gray@gmail.com>"
+
 set -x
 
 . $(dirname $0)/env || (echo "$(dirname $0)/env missing, please see $(dirname $0)/env.ex"; exit 1)
